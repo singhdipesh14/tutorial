@@ -271,7 +271,7 @@ div.links2 {
 }
 .cardTitle{
   width: 20vw;
- font-family: "Ubuntu", sans-serif;
+ font-family: "Cantarell", sans-serif;;
   font-weight: 900;
   font-size: 1.5em;
   color:#252525;
@@ -283,8 +283,7 @@ div.links2 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 600;
 }
-/* .cardImg{
-  background-image: url(card.jpg);
-  background-repeat: no-repeat;
-  height: 200px;
-} */
+.cardImg{
+ margin-left:100px;
+ border-radius:10px;
+}
