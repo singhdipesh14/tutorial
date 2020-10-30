@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactComponent as SearchIcon } from "../loupe.svg";
 export default class NavBar extends React.Component {
   render() {
     return (
@@ -17,7 +18,10 @@ export default class NavBar extends React.Component {
           <a href="#">Blog</a>
           <a href="#">Community</a>
         </span>
+
         <form id="searchForm">
+          {/* <span id="searchicon"><SearchIcon className="searchicon" /></span> */}
+          
           <input id="searchBar" type="text" placeholder="Search" />
         </form>
         <span className="navtext2">

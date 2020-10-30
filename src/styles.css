@@ -31,6 +31,7 @@ hr {
 #reactlink {
   text-decoration: none;
 }
+
 .react {
   display: inline;
   text-align: left;
@@ -58,6 +59,14 @@ span.navtext a:hover {
   margin-left: 10vw;
   padding: 6px;
   background-color: #20232a;
+  background-image: url(loupe.svg);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 4px;
+    background-position-y: center;
+    background-position-x: 4px;
+    padding: 4px 4px 4px 29px;
   color: white;
   font-size: 1.1em;
   font-weight: normal;
@@ -69,6 +78,14 @@ span.navtext a:hover {
   border: none;
   outline: none;
   border-radius: 5px;
+  background-image: url(loupe.svg);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 4px;
+    background-position-y: center;
+    background-position-x: 4px;
+    padding: 4px 4px 4px 29px;
 }
 span.navtext2 a {
   text-decoration: none;
@@ -81,6 +98,14 @@ span.navtext2 a {
 }
 span.navtext2 a:hover {
   color: #61daf8;
+}
+#searchicon{
+  margin-left: 100px;
+  margin-right:5px;
+  margin-top: 6px;
+}
+.searchicon{
+  height: 20px;
 }
 #jumbotron {
   background: #282c34;
@@ -172,7 +197,7 @@ button.getStarted:hover {
 }
 .footer {
   background: #20232a;
-  height: 700px;
+  height: 671px;
   display: flex;
   flex-wrap: nowrap;
 }
