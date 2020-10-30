@@ -192,9 +192,11 @@ button.getStarted:hover {
   text-decoration: none;
   color: black;
   background-color: #ebeefc;
+  text-decoration: underline, dashed, 1px;
 }
 .reactnative:hover {
   background-color: #a8dbff;
+  text-decoration: underline, dashed, 1px;
 }
 .footerlink {
   background: #282c34;
@@ -286,4 +288,8 @@ div.links2 {
 .cardImg{
  margin-left:100px;
  border-radius:10px;
+}
+.editText{
+  background: antiquewhite;
+
 }
