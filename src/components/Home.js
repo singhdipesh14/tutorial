@@ -1,6 +1,7 @@
 import React from "react";
 import Jumbotron from "./Jumbotron";
 import Description from "./Description";
+import Card from "./Card";
 import FooterLink from "./FooterLink";
 export default class Home extends React.Component {
   render() {
@@ -9,6 +10,7 @@ export default class Home extends React.Component {
         <Jumbotron />
         <Description />
         <hr />
+        <Card />
         <FooterLink />
       </div>
     );

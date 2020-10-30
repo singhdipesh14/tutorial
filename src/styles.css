@@ -109,6 +109,11 @@ span.navtext2 a:hover {
 }
 #jumbotron {
   background: #282c34;
+  background-image: url(logo.svg);
+  background-repeat: no-repeat;
+  background-size: 1200px 1200px;
+  background-position-y: -180px;
+    background-position-x: 550px;
   height: 420px;
 }
 .reactHome {
@@ -217,7 +222,7 @@ button.getStarted:hover {
 }
 div.links1 {
   text-align: left;
-  padding-right: 150px;
+  margin-right: 150px;
 }
 #linktitle {
   padding-top: 50px;
@@ -252,3 +257,34 @@ div.links2 {
 .links2 a:hover {
   color: #61daf8;
 }
+.card{
+  margin-right: 200px;
+  margin-left:200px;
+  margin-top:50px;
+  margin-bottom:60px;
+}
+.cardflex{
+  display:flex;
+  text-align: left;
+  margin-top:100px;
+  
+}
+.cardTitle{
+  width: 20vw;
+ font-family: "Ubuntu", sans-serif;
+  font-weight: 900;
+  font-size: 1.5em;
+  color:#252525;
+}
+.cardDescription{
+  width: 20vw;
+  margin-top: 35px;
+  line-height: 2;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+}
+/* .cardImg{
+  background-image: url(card.jpg);
+  background-repeat: no-repeat;
+  height: 200px;
+} */
