@@ -1,0 +1,229 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+hr {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  width: 75%;
+}
+.home {
+  padding-top: 60px;
+}
+.navimg {
+  display: inline-block;
+  padding-left: 9vw;
+  height: 30px;
+}
+.navbar {
+  background-color: #20232a;
+  width: 100%;
+  position: fixed;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+}
+#reactlink {
+  text-decoration: none;
+}
+.react {
+  display: inline;
+  text-align: left;
+  color: #61daf8;
+  font-weight: 1000;
+  font-family: "Cantarell", sans-serif;
+  padding-right: 10vw;
+  font-size: 1.2em;
+}
+span.navtext a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 40px;
+  font-weight: normal;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.1em;
+  transition: 0.3s;
+  letter-spacing: -1px;
+}
+span.navtext a:hover {
+  color: #61daf8;
+}
+#searchBar[type="text"] {
+  border: none;
+  margin-left: 10vw;
+  padding: 6px;
+  background-color: #20232a;
+  color: white;
+  font-size: 1.1em;
+  font-weight: normal;
+  font-family: "Ubuntu", sans-serif;
+  margin-right: 2vw;
+}
+#searchBar[type="text"]:focus {
+  background: #32363e;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+span.navtext2 a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 20px;
+  font-weight: normal;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.9em;
+  transition: 0.3s;
+}
+span.navtext2 a:hover {
+  color: #61daf8;
+}
+#jumbotron {
+  background: #282c34;
+  height: 420px;
+}
+.reactHome {
+  padding-top: 100px;
+  color: #61daf8;
+  font-weight: 1000;
+  font-family: "Cantarell", sans-serif;
+  font-size: 4em;
+}
+#jtext {
+  padding-top: 10px;
+  color: white;
+  font-size: 1.8em;
+  font-family: "Ubuntu", sans-serif;
+}
+.getStarted {
+  margin-top: 50px;
+  margin-right: 20px;
+  padding: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  background: #61daf8;
+  font-size: 1.2em;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  transition: 0.4s;
+  cursor: pointer;
+}
+button.getStarted:hover {
+  background-color: white;
+}
+
+#jlinks {
+  text-decoration: none;
+  color: #61daf8;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  transition: 0.4s;
+}
+#jlinks:hover {
+  color: white;
+}
+.description {
+  display: flex;
+  margin-top: 100px;
+  flex-wrap: nowrap;
+}
+.fd,
+.sd,
+.td {
+  text-align: left;
+  line-height: 2;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  width: 25vw;
+}
+.fd,
+.sd {
+  margin-right: 20px;
+}
+.td {
+  margin-right: 200px;
+}
+.fd {
+  margin-left: 200px;
+}
+.ft {
+  margin-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: grey;
+}
+.reactnative {
+  text-decoration: none;
+  color: black;
+  background-color: #ebeefc;
+}
+.reactnative:hover {
+  background-color: #a8dbff;
+}
+.footerlink {
+  background: #282c34;
+  height: 150px;
+}
+.footer {
+  background: #20232a;
+  height: 700px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.facebook {
+  padding-top: 50px;
+  margin-left: 10vw;
+  text-align: left;
+  margin-right: 17vw;
+}
+.fossimg {
+  height: 7vh;
+  padding-bottom: 10px;
+}
+.copyright {
+  color: grey;
+  font-family: "Ubuntu", sans-serif;
+}
+div.links1 {
+  text-align: left;
+  padding-right: 150px;
+}
+#linktitle {
+  padding-top: 50px;
+  color: grey;
+  font-family: "Cantarell", sans-serif;
+  font-weight: bold;
+}
+.links1 a {
+  display: block;
+  padding-top: 15px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1em;
+}
+.links1 a:hover {
+  color: #61daf8;
+}
+div.links2 {
+  text-align: left;
+}
+.links2 a {
+  display: block;
+  padding-top: 15px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1em;
+}
+.links2 a:hover {
+  color: #61daf8;
+}
